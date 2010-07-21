@@ -1,0 +1,13 @@
+Just a few tasks that I've created or borrowed for phing.
+
+CssCompileTask 
+Uses the YUI compressor to minify css files
+
+JsCompileTask
+Uses the Google Closure Compiler to minify js files. Faster and smaller than jsmin
+
+CompressTask
+Uses either gzip (default) or bzip2 to compress files. Leaves original files in tact. Handy for use with the nginx module, NginxHttpGzipStaticModule.
+
+FileSyncTask
+Copied from Federico Cargnelutti, see http://fedecarg.com/wiki/FileSyncTask.  Works great.
